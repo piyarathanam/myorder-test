@@ -1,0 +1,24 @@
+{
+  "name": "myorder-test",
+  "version": "1.0.0",
+  "description": "Automate testing for My Order exam",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "mocha -r ts-node/register 'tests/**/*.test.ts' --timeout 30000 --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.9.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/selenium-webdriver": "^4.1.14",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
